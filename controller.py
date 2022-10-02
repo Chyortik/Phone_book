@@ -1,9 +1,9 @@
 
-from import_data import import_data
-from export_data import export_data
-from print_data import print_data
-from search_data import search_data
-#encoding = 'utf-8'
+from work_data.import_data import import_data
+from work_data.export_data import export_data
+from printing.print_data import print_data
+from work_data.search_data import search_data
+
 
 def greeting():
     print("Здравствуйте!")
